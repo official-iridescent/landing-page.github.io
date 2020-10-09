@@ -4,15 +4,31 @@
   font-family: azonix;
   src: url(../assets/fonts/Azonix.otf);
 }
-
+::-moz-selection {
+  color: #e86100;
+  background: #000000;
+}
+::selection {
+  color: #e86100;
+  background: #000000;
+}
 ::-webkit-scrollbar {
   display: none;
 }
-
+body {
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+}
+.navigator {
+  z-index: 100;
+}
+.fa-slash {
+  transform: rotate(52deg);
+}
 .azonix {
   font-family: azonix;
 }
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -477,7 +493,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 86%;
   height: auto;
 }
 
@@ -10224,7 +10240,6 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
 .masthead {
   position: relative;
   width: 100%;
