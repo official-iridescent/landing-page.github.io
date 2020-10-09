@@ -15,17 +15,6 @@
 ::-webkit-scrollbar {
   display: none;
 }
-body {
-  overflow: hidden;
-  -webkit-font-smoothing: antialiased;
-  display: block;
-}
-.navigator {
-  z-index: 100;
-}
-.fa-slash {
-  transform: rotate(52deg);
-}
 .azonix {
   font-family: azonix;
 }
@@ -493,7 +482,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 86%;
+  max-width: 100%;
   height: auto;
 }
 
