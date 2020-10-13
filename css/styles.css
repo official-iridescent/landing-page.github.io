@@ -5,12 +5,12 @@
   src: url(../assets/fonts/Azonix.otf);
 }
 ::-moz-selection {
-  color: #e86100;
-  background: #000000;
+  color: #000000;
+  background: #e86100;
 }
 ::selection {
-  color: #e86100;
-  background: #000000;
+  color: #000000;
+  background: #e86100;
 }
 ::-webkit-scrollbar {
   display: none;
